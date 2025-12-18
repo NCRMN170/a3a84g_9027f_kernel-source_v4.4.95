@@ -1,6 +1,6 @@
 Kernel source from https://github.com/xmusjackson/android_kernel_tcl_A3A_8_4G_TMO.git
 -------------------------------------------------------------------------------------
-Thanks for xmusjackson
+Thanks to xmusjackson
 ----------------------
 I fixed and share this kernel source.
 
