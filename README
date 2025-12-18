@@ -7,7 +7,7 @@ You can use Ubuntu 22.04.5 LTS for compilation. Your operating system must have 
 
 Use these commands to set Python 2 as the default:
 
-```bash
+```
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 2
 
@@ -16,13 +16,13 @@ sudo update-alternatives --config python
 ```
 
 Use these to restore the default settings when you're finished:
-```bash
+```
 sudo update-alternatives --remove python /usr/bin/python2
 sudo update-alternatives --remove python /usr/bin/pytho3
 ```
 
 You can create a prebuilt kernel build environment for the a3a84g-9027f using these commands: (toolchain from LineageOS)
-```bash
+```
 cd $HOME
 
 git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9.git -b lineage-17.0
