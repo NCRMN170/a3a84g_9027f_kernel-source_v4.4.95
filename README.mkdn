@@ -37,9 +37,9 @@ mv android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9 kernel_build
 
 cd kernel_build 
 
-git clone https://github.com/NCRMN170/a3a84g_9027f_kernel-source_v4.4.95.git
+git clone https://github.com/NCRMN170/a3a84g_9027f_alcatel-3T-8_kernel-source_v4.4.95.git
 
-mv a3a84g_9027f_kernel-source_v4.4.95 kernel
+mv a3a84g_9027f_alcatel-3T-8_kernel-source_v4.4.95 kernel
 
 wget https://raw.githubusercontent.com/NCRMN170/depo/main/build_kernel.sh
 wget https://raw.githubusercontent.com/NCRMN170/depo/main/clean.sh
